@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex: 1;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.main-container {
+    margin:auto;
+    margin-top: 190px;
+    width: 70%;
+    height: 400px;
+}
+#google-logo {
+    display: block;
+    margin:auto;
+}
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+    border: 0.5px solid #ccc;
+    border-radius: 26px;
+    width: 500px;
+    height: 42px;
+}
+
+#magnifying-glass {
+    height: 15px;
+    margin-left: 17px;
+    margin-top: 14px;
+    opacity: 0.5;
+}
+
+#microphone {
+    height: 15px;
+    margin-right: 17px;
+    margin-top: 14px;
+    opacity: 0.8;
+}
+
+
+#text-input {
+    outline: none;
+    border: white;
+    align-items: center;
+    height: 80%;
+    width: 85%;
+}
+
+.search-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search-button {
+    border: 1px solid transparent;
+    color: grey;
+    border-radius: 3px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+}
+
+.search-button:hover {
+    border: 1px solid grey;
+}
+
+.search-button:active {
+    border: 0.5px solid #4285f4;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 85%;
+}
+
+ul {
+    list-style-type: none;
+    display:inline;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+}
+
+li a {
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#left-header{
+    margin-left: 0px;
+}
+#right-header {
+    margin-right: 20px;
+}
+
+#grid {
+    height: 15px;
+    opacity: 0.7;
+}
+
+#sign-in-button {
+    font-weight: bold;
+    color: white;
+    background-color: #4285f4;
+    border: 0px;
+    border-radius: 2px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    font-size: 80%;
+}
