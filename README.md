@@ -1,13 +1,16 @@
-Introduction:
-As part of The Odin Project, I have to create a Google Webpage
+Summary and Reflection
+This project is my attempt to recreate the Google Homepage. Some of the features include the effects when hovering over the elements, be it a border or underline.
 
-General outline:
-1. Create the search bar
-- centered search bar
-- round border radius
-- insert magnifying glass image/icon into search bar and position at the start
-- insert microphone image and position at the end
+I faced more problems than I expected creating this web page. Until now I'm not sure what I did that DIDN'T work the last time and how exactly I solved it. The ones I still cant figure out was how to separate my list elements in the header and footer and putting it on opposite ends. I made them separate lists and implemened margin right and left but it didn't seem to work. In the end I set my nav bar/footer display to flex and implemented space-between to separate them.
 
-2. Insert google image and position it above the search bar
+What I learnt
+- centering elements on the page with margin: auto
+- using overflow:hidden on body to stop the scrollbar from appearing
+- setting margin: 0 to ensure no whitespace on the left of the navbar
+- the use of flex to move elements around in a container
+- creating a nav bar and footer using <ul> and display: inline
 
-3. Insert 2 boxes, colour grey, with texts "google search" and "I'm Feeling Lucky"
+As for what I still need to learn, the list includes: the measurements I can use for height and width(not just using px), types of display and when to use them.
+
+However, as for the improvements I'd like to see in the future, they include being responsive, centering that grid symbol on the top left,
+and generally having cleaner code.
