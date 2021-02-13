@@ -1,4 +1,7 @@
-Summary and Reflection
+# Google Homepage Clone
+
+[Live Preview](https://jod-nhk.github.io/Google-Homepage/homepage.html)
+
 This project is my attempt to recreate the Google Homepage. Some of the features include the effects when hovering over the elements, be it a border or underline.
 
 I faced more problems than I expected creating this web page. Until now I'm not sure what I did that DIDN'T work the last time and how exactly I solved it. The ones I still cant figure out was how to separate my list elements in the header and footer and putting it on opposite ends. I made them separate lists and implemened margin right and left but it didn't seem to work. In the end I set my nav bar/footer display to flex and implemented space-between to separate them.
