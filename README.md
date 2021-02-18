@@ -1,6 +1,6 @@
 # Google Homepage Clone
 
-[Live Preview](https://jod-nhk.github.io/Google-Homepage/homepage.html)
+[Live Preview](https://jednghk.github.io/Google-Homepage/homepage.html)
 
 This project is my attempt to recreate the Google Homepage. Some of the features include the effects when hovering over the elements, be it a border or underline.
 
